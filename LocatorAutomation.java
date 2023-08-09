@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class FirstAutomationP1 extends BaseDriverP1{
+public class LocatorAutomation extends BaseDriver{
 	
      @Test
-	public void FirstTestP1 () throws InterruptedException{
+	public void FirstLocatorTest () throws InterruptedException{
 	
 	driver.get("https://www.cricbuzz.com/");
 	

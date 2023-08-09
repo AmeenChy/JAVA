@@ -36,7 +36,6 @@ public class BaseDriverP {
 		}
 	@AfterSuite
 	public void close() {
-		
 		driver.close();
 	}
 }
