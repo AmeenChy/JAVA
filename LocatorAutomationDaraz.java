@@ -35,11 +35,19 @@ public class LocatorAutomationDaraz extends BaseDriver {
 		 * clsele.sendKeys("MotorByke"); Thread.sleep(500);
 		 */
 		
-		WebElement clsele= driver.findElement(By.linkText("CUSTOMER CARE"));
-		clsele.click();
-		Thread.sleep(500);
+		/*
+		 * WebElement clsele= driver.findElement(By.linkText("CUSTOMER CARE"));
+		 * clsele.click(); Thread.sleep(500);
+		 */
 		
-
+		WebElement clsele= driver.findElement(By.xpath("//span[@class='drz-icon-payment drz-footer-sprit icon-yatra-payment-3']"));
+		clsele.click();
+		Thread.sleep(5000);
+		
+		
+		
+		//span[@class='drz-icon-payment drz-footer-sprit icon-yatra-payment-3']
+	
 	}
 
 }
